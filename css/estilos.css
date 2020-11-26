@@ -1,0 +1,378 @@
+body{
+	margin:0;
+	padding: 0;
+  font-family: sans-serif;
+  background-image: radial-gradient(circle, #101C56, #000);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}  body::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+  display: none;
+} body::-webkit-scrollbar-thumb{
+  width: 8px;
+  height: 8px;
+  background-color: royalblue;
+  border-radius: 100px;
+} 
+
+@media only screen and (min-device-width: 1251px){
+
+.title-alert-exito{
+  color: red;
+}
+.formulario{
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin:0 auto;
+  margin-top: 100px;
+}  .formulario .titulo{
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #02C1D7;
+} .formulario  .nombre{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin:0 auto;
+    margin-bottom: 20px;
+} .formulario  .nombre .cont-input{
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+} .formulario  .nombre .cont-input .icono{
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 10px;
+  color: #B6C0B3;
+}
+
+.formulario  .nombre .cont-input .input{
+    width: 100%;
+    padding:10px 15px 10px 25px;
+     border:2px solid #D5D7DD;
+     margin-bottom: 10px;
+    outline: none;
+    background:none;
+} .formulario  .nombre .cont-input .input:focus{
+     border:2px solid #0BD9FA;
+} .formulario  .nombre .cont-input .icono-valido{
+  margin-top: 10px;
+  margin-left: 92%;
+   position: absolute;
+   color: #10F128;
+   display: none;
+} .formulario  .nombre .cont-input .icono-error{
+  margin-top: 10px;
+ margin-left: 92%;
+   position: absolute;
+   color: red;
+   display: none;
+} .formulario .nombre .cont-error{
+  width: 80%;
+  height: auto;
+  margin:0 auto;
+  background-color: red;
+  display: flex;
+  position: relative;
+   display: block;
+} .formulario .nombre .cont-error .texto-error{
+  width: 80%;
+  color: white;
+  margin-left:5px;
+   display: none;
+} .formulario .nombre .cont-error .icono-textoerror{
+   position: absolute;
+   margin-left: 91%;
+   margin-top: -32px;
+   color: white;
+    display: none;
+}
+
+
+/*Nombre usuario ***/
+ .formulario  .usuario{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin:0 auto;
+    margin-bottom: 20px;
+} .formulario  .usuario .cont-input{
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+} .formulario  .usuario .cont-input .icono{
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 10px;
+  color: #B6C0B3;
+}
+
+.formulario  .usuario .cont-input .input{
+    width: 100%;
+    padding:10px 15px 10px 25px;
+     border:2px solid #D5D7DD;
+     margin-bottom: 10px;
+    outline: none;
+    background:none;
+}  .formulario  .usuario .cont-input .input:focus{
+     border:2px solid #0BD9FA;
+}
+.formulario  .usuario .cont-input .icono-valido{
+  margin-top: 10px;
+  margin-left: 92%;
+   position: absolute;
+   color: #10F128;
+    display: none;
+} .formulario  .usuario .cont-input .icono-error{
+  margin-top: 10px;
+ margin-left: 92%;
+   position: absolute;
+   color: red;
+   display: none;
+} .formulario .usuario .cont-error{
+  width: 80%;
+  height: auto;
+  margin:0 auto;
+  background-color: red;
+  display: flex;
+  position: relative;
+   display: none;
+} .formulario .usuario .cont-error .texto-error{
+  width: 80%;
+  color: white;
+  margin-left:5px;
+   display: none;
+} .formulario .usuario .cont-error .icono-textoerror{
+   position: absolute;
+   margin-left: 91%;
+   margin-top: -40px;
+   color: white;
+    display: none;
+}
+
+/* Correo ***/
+ .formulario  .correo{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin:0 auto;
+    margin-bottom: 20px;
+} .formulario  .correo .cont-input{
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+} .formulario  .correo .cont-input .icono{
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 10px;
+  color: #B6C0B3;
+}
+
+.formulario  .correo .cont-input .input{
+    width: 100%;
+    padding:10px 15px 10px 25px;
+     border:2px solid #D5D7DD;
+     margin-bottom: 10px;
+    outline: none;
+    background:none;
+} .formulario  .correo .cont-input .input:focus{
+     border:2px solid #0BD9FA;
+}
+ .formulario  .correo .cont-input .icono-valido{
+  margin-top: 10px;
+  margin-left: 92%;
+   position: absolute;
+   color: #10F128;
+    display: none;
+} .formulario  .correo .cont-input .icono-error{
+  margin-top: 10px;
+ margin-left: 92%;
+   position: absolute;
+   color: red;
+   display: none;
+} .formulario .correo .cont-error{
+  width: 80%;
+  height: auto;
+  margin:0 auto;
+  background-color: red;
+  display: flex;
+  position: relative;
+   display: none;
+} .formulario .correo .cont-error .texto-error{
+  width: 80%;
+  color: white;
+  margin-left:5px;
+   display: none;
+} .formulario .correo .cont-error .icono-textoerror{
+   position: absolute;
+   margin-left: 91%;
+   margin-top: -32px;
+   color: white;
+    display: none;
+}
+
+
+/**** contraseña ***/
+
+ .formulario  .contraseña{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin:0 auto;
+    margin-bottom: 20px;
+} .formulario  .contraseña .cont-input{
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+} .formulario  .contraseña .cont-input .icono{
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 10px;
+  color: #B6C0B3;
+}
+
+.formulario  .contraseña .cont-input .input{
+    width: 100%;
+    padding:10px 15px 10px 25px;
+     border:2px solid #D5D7DD;
+     margin-bottom: 10px;
+    outline: none;
+    background:none;
+} .formulario  .contraseña .cont-input .input:focus{
+     border:2px solid #0BD9FA;
+}
+
+ .formulario  .contraseña .cont-input .icono-valido{
+  margin-top: 10px;
+  margin-left: 92%;
+   position: absolute;
+   color: #10F128;
+    display: none;
+} .formulario  .contraseña .cont-input .icono-error{
+  margin-top: 10px;
+ margin-left: 92%;
+   position: absolute;
+   color: red;
+   display: none;
+} .formulario .contraseña .cont-error{
+  width: 80%;
+  height: auto;
+  margin:0 auto;
+  background-color: red;
+  display: flex;
+  position: relative;
+   display: none;
+} .formulario .contraseña .cont-error .texto-error{
+  width: 80%;
+  color: white;
+  margin-left:5px;
+   display: none;
+} .formulario .contraseña .cont-error .icono-textoerror{
+   position: absolute;
+   margin-left: 91%;
+   margin-top: -40px;
+   color: white;
+    display: none;
+}
+ .formulario .btn-registro{
+   width: 80%;
+   background-color: #03D8FA;
+   border:none;
+   outline: none;
+   color: white;
+   font-size:25px;
+   display: block;
+   margin:0 auto;
+   transition: all 1s;
+   padding:10px 15px 10px 15px;
+} .formulario .btn-registro:hover{
+   color:#03D8FA;
+   background-color: white;
+   cursor: pointer;
+}
+
+
+}
+
+/*** codijo js **/
+/*NOMBRE*/
+.formulario  .nombre .cont-input .input-borde-error{
+ border:2px solid red;
+} .formulario  .nombre .cont-input .input-borde-valido{
+ border:2px solid #03FA03;
+}  .formulario  .nombre .cont-input .icono-valido-activo{
+   display: block;
+} .formulario  .nombre .cont-input .icono-error-activo{
+  display: block;
+} .formulario .nombre .cont-error-activo{
+  display: block;
+} .formulario .nombre .cont-error-activo .texto-error-activo{
+   display: block;
+} .formulario .nombre .cont-error-activo .icono-textoerror-activo{
+   display: block;
+}
+
+/*USUARIO*/
+.formulario  .usuario .cont-input .input-borde-error{
+  border:2px solid red;
+ } .formulario  .usuario .cont-input .input-borde-valido{
+  border:2px solid #03FA03;
+ }  .formulario  .usuario .cont-input .icono-valido-activo{
+    display: block;
+ } .formulario  .usuario .cont-input .icono-error-activo{
+   display: block;
+ } .formulario .usuario .cont-error-activo{
+  display: block;
+} .formulario .usuario .cont-error-activo .texto-error-activo{
+  display: block;
+} .formulario .usuario .cont-error-activo .icono-textoerror-activo{
+  display: block;
+}
+/*CORREO*/
+ .formulario  .correo .cont-input .input-borde-error{
+  border:2px solid red;
+ } .formulario  .correo .cont-input .input-borde-valido{
+  border:2px solid #03FA03;
+ }  .formulario  .correo .cont-input .icono-valido-activo{
+    display: block;
+ } .formulario  .correo .cont-input .icono-error-activo{
+   display: block;
+ } .formulario .correo .cont-error-activo{
+  display: block;
+} .formulario .correo .cont-error-activo .texto-error-activo{
+  display: block;
+} .formulario .correo .cont-error-activo .icono-textoerror-activo{
+  display: block;
+}
+/*CONTRASEÑA*/
+ .formulario  .contraseña .cont-input .input-borde-error{
+  border:2px solid red;
+ } .formulario  .contraseña .cont-input .input-borde-valido{
+  border:2px solid #03FA03;
+ }  .formulario  .contraseña .cont-input .icono-valido-activo{
+    display: block;
+ } .formulario  .contraseña .cont-input .icono-error-activo{
+   display: block;
+ } .formulario .contraseña .cont-error-activo{
+  display: block;
+} .formulario .contraseña .cont-error-activo .texto-error-activo{
+  display: block;
+} .formulario .contraseña .cont-error-activo .icono-textoerror-activo{
+  display: block;
+}
+
+ 

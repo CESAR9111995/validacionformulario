@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#20202F">
+	<script src="https://kit.fontawesome.com/8262a57d41.js" crossorigin="anonymous"></script>
+	<title>Travel</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/tablet.css">
+	<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+	<form class="formulario" action="" method="GET">
+		<h2 class="titulo">Registrate</h2>
+
+<div class="nombre">
+	<span class="cont-input"><i class=" icono fas fa-user"></i><input type="text" placeholder="Nombre..." name="nombre" id="nombre" class="input" autocomplete="off"><i class="fas icono-valido fa-check-circle" id="icono-valido-nombre"></i><i class="fas icono-error fa-times-circle" id="icono-error-nombre"></i></span>
+
+	<span class="cont-error" id="cont-error-nombre"><p class="texto-error" id="texto-error-nombre">Escribe un nombre válido</p><i class="icono-textoerror fas fa-window-close" id="iconotexto-error-nombre"></i></span>
+</div> 
+
+<div class="usuario">
+	<span class="cont-input"><i class=" icono fas fa-user"></i><input type="text" placeholder="Nombre de Usuario..." name="usuario" id="usuario" class="input" autocomplete="off"><i class="fas icono-valido fa-check-circle" id="icono-valido-usuario"></i><i class="fas icono-error fa-times-circle" id="icono-error-usuario"></i></span>
+
+	<span class="cont-error" id="cont-error-usuario"><p class="texto-error" id="texto-error-usuario">Escribe un nombre de usuario válido</p><i class="icono-textoerror fas fa-window-close" id="iconotexto-error-usuario"></i></span>
+</div>
+
+<div class="correo">
+	<span class="cont-input"><i class="fas icono fa-envelope"></i><input type="email" placeholder="Correo..." name="correo" id="correo" class="input" autocomplete="off"><i class="fas icono-valido fa-check-circle" id="icono-valido-correo"></i><i class="fas icono-error fa-times-circle" id="icono-error-correo"></i></span>
+
+	<span class="cont-error" id="cont-error-correo"><p class="texto-error" id="texto-error-correo">Escribe un correo válido</p><i class="icono-textoerror fas fa-window-close" id="iconotexto-error-correo"></i></span>
+</div>
+
+<div class="contraseña">
+	<span class="cont-input"><i class="icono fas fa-lock"></i><input type="password" placeholder="Contraseña..." name="password" id="password" class="input" autocomplete="off"><i class="fas icono-valido fa-check-circle" id="icono-valido-password"></i><i class="fas icono-error fa-times-circle" id="icono-error-password"></i></span>
+
+	<span class="cont-error" id="cont-error-password"><p class="texto-error" id="texto-error-password">Escribe una contraseña válida</p><i class="icono-textoerror fas fa-window-close" id="iconotexto-error-password"></i></span>
+</div>
+
+
+<button type="submit" class="btn-registro" id="btn-registro">Registrarme</button>
+
+</form>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="sweetalert.js"></script>
+<script src="operacion.js"></script>
+
+</body>
+
+
+
+</html>
+
